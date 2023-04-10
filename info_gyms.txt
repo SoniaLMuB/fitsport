@@ -1,0 +1,141 @@
+nombre: Vita GYM
+Dirección: Baja California 444, Norberto Treviño Zapata, 87040 Cd Victoria, Tamps.
+Descripción: lunes 05:00–22:00, martes 05:00–22:00, miércoles 05:00–22:00 jueves 05:00–22:00, viernes 05:00–22:00, sábado 08:00–15:00
+latitud: 23.753458545458 
+longitud:-99.14692775099164
+telefono: +528341103368
+calificacion: 4.7
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Vita GYM', 'Baja California 444, Norberto Treviño Zapata, 87040 Cd Victoria, Tamps.', 'Lunes 05:00–22:00, Martes 05:00–22:00, Miércoles 05:00–22:00 Jueves 05:00–22:00, Viernes 05:00–22:00, Sábado 08:00–15:00', 23.753458545458, -99.14692775099164,8341103368);
+
+
+
+City Gym
+Dirección: Emiliano P. Nafarrete 2609, Norberto Treviño Zapata, 87020 Cd Victoria, Tamps.
+Descripción: 
+Horarios:lunes 05:00–21:00, martes 05:00–21:00, miércoles 05:00–21:00, jueves 05:00–21:00, viernes 05:00–21:00, sábado Cerrado
+latitud: 23.75958315947042
+longitud: -99.14709096134744
+telefono: +528341103105
+calificacion: 4.9
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('City Gym', 'Emiliano P. Nafarrete 2609, Norberto Treviño Zapata, 87020 Cd Victoria, Tamps.', 'Lunes 05:00–21:00, Martes 05:00–21:00, Miércoles 05:00–21:00, Jueves 05:00–21:00, Viernes 05:00–21:00, Sábado Cerrado', 23.75958315947042, -99.14709096134744,'8341103105');
+
+
+Woman Gym & Fitness
+Dirección: 87140, C. Olivia Ramírez 1110, Residencial las Palmas, Cd Victoria, Tamps.
+Descripción: 
+Horarios:domingo Cerrado, lunes 07:00–12:00 16:00–21:00, martes 07:00–12:00 16:00–21:00, miércoles 07:00–12:00 16:00–21:00, jueves 07:00–12:00 16:00–21:00 viernes 07:00–12:00 16:00–21:00 sábado 08:00–12:00 
+latitud: 23.75958315947042 
+longitud: -99.14709096134744
+23.745092753479035, -99.1417050196061
+telefono: -
+calificacion: 4.6
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Woman Gym & Fitness', '87140, C. Olivia Ramírez 1110, Residencial las Palmas, Cd Victoria, Tamps.', 'domingo Cerrado, lunes 07:00–12:00 16:00–21:00, martes 07:00–12:00 16:00–21:00, miércoles 07:00–12:00 16:00–21:00, jueves 07:00–12:00 16:00–21:00 viernes 07:00–12:00 16:00–21:00 sábado 08:00–12:00 ', 23.745092753479035, -99.1417050196061,'-');
+
+
+CrossFit CAPITAL
+Dirección:Residencial Selectas, 87050 Cd Victoria, Tamps.
+Descripción: 
+Horarios: Domingo Cerrado Lunes 05:00–21:00, Martes 05:00–21:00 Miércoles 05:00–21:00 Jueves 05:00–21:00 Viernes 05:00–21:00 Sábado 08:00–14:00 
+latitud: 23.740383109815788
+longitud: -99.1419580289062
+telefono: -
+calificacion: 4.7
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('CrossFit CAPITAL', 'Residencial Selectas, 87050 Cd Victoria, Tamps.', 'Domingo Cerrado Lunes 05:00–21:00, Martes 05:00–21:00 Miércoles 05:00–21:00 Jueves 05:00–21:00 Viernes 05:00–21:00 Sábado 08:00–14:00', 23.740383109815788, -99.1419580289062,'-');
+
+
+
+CrossFit CAPITAL
+Dirección:Residencial Selectas, 87050 Cd Victoria, Tamps.
+Descripción: 
+Horarios: Domingo Cerrado Lunes 05:00–21:00, Martes 05:00–21:00 Miércoles 05:00–21:00 Jueves 05:00–21:00 Viernes 05:00–21:00 Sábado 08:00–14:00 
+latitud: 23.740422393616807
+longitud: -99.14200094424976
+telefono: -
+calificacion: 4.7
+23.740422393616807, 
+23.740422393616807, -99.14200094424976
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('CrossFit CAPITAL', 'Residencial Selectas, 87050 Cd Victoria, Tamps.', 'Domingo Cerrado Lunes 05:00–21:00, Martes 05:00–21:00 Miércoles 05:00–21:00 Jueves 05:00–21:00 Viernes 05:00–21:00 Sábado 08:00–14:00', 23.740422393616807, -99.14200094424976,'-');
+
+
+
+
+Hard Body Gym
+Dirección:Aldama 902, Pedro José Méndez, 87048 Cd Victoria, Tamps.
+Descripción: 
+Horarios: Domingo Cerrado Lunes 05:00–21:00, Martes 05:00–21:00 Miércoles 05:00–21:00 Jueves 05:00–21:00 Viernes 05:00–21:00 Sábado 08:00–14:00 
+latitud: 23.740422393616807
+longitud: -99.14200094424976
+telefono: -
+calificacion:
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Hard Body Gym', 'Aldama 902, Pedro José Méndez, 87048 Cd Victoria, Tamps.', 'Domingo Cerrado, Lunes 05:00–22:00, Martes 05:00–22:00 Miércoles 05:00–22:00 Jueves 05:00–22:00 Viernes 05:00–22:00 Sábado 08:00–14:00',23.744690582235222, -99.156501327964,'8341102285');
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Olympia Gym', '23, Anaya y Olivia Ramírez 1227, Ascensión Gómez Mancilla, 87040 Cd Victoria, Tamps.', 'Lunes 05:00–22:00 Martes 05:00–22:00 Miércoles 05:00–22:00 Jueves 05:00–22:00 Viernes 05:00–22:00 Sábado 08:00–14:00 Domingo Cerrado',23.745615504752692, -99.15660748001336,'8343167748');
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Gimnasio Manuel Raga Navarro', 'Mier y Terán 914-916, Pedro José Méndez, 87048 Cd Victoria, Tamps.', 'Lunes 07:00–21:00 Martes 07:00–21:00 Miércoles 07:00–21:00 Jueves 07:00–21:00 Viernes 07:00–21:00 Sábado Cerrado Domingo Cerrado',23.74012897892091, -99.15314074860389,'8343169609');
+
+
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Lion Victoria', 'Alejandro Prieto 314, San Francisco, 87050 Cd Victoria, Tamps., 87048 Cd Victoria, Tamps.','Domingo Cerrado Lunes 06:00–21:00 Martes 06:00–21:00 Miércoles 06:00–21:00 Jueves 06:00–21:00 Viernes 06:00–21:00 Sábado 11:00–02:00',23.746868404298006, -99.15623952323212,'-');
+
+
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('EnerGym', '87078, Las Palmas SN-C SUPER MARKET L Y M, Las Flores, Cd Victoria, Tamps.', 'Domingo Cerrado Lunes 06:00–22:00 Martes 06:00–22:00 Miércoles 06:00–22:00 Jueves 06:00–22:00 Viernes 06:00–22:00 Sábado 09:00–14:00' ,23.728497627033796, -99.16150893801813,'8342487338');
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Alfa C.F. Training', 'Av, Las Torres y Aldama esq, Héroe de Nacozari, 87030 Cd Victoria, Tamps.', 'Domingo Cerrado Lunes 06:00–09:00 16:00–21:00 Martes 06:00–09:00 16:00–21:00 Miércoles 06:00–09:00 16:00–21:00 Jueves 06:00–09:00 16:00–21:00 Viernes 06:00–09:00 16:00–21:00 Sábado 09:00–11:00', 23.741429282088816, -99.16487239426452,'8342559670');
+
+
+
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Lady's Gym', '87086 Calle, 5 de febrero con 21 de octubre 223, Independencia, 87086 Cd Victoria, Tamps.', 'Domingo Cerrado Lunes 05:00–22:00 Martes 05:00–22:00 Miércoles 05:00–22:00 Jueves 05:00–22:00 Viernes 05:00–22:00 Sábado 08:00–16:00',23.742455548946513, -99.11845669806438,'8341753171');
+
+
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Body Building Gym', 'Nube, Comercial Dos Mil, 87099 Cd Victoria, Tamps.', 'Domingo Abierto las 24 horas, Lunes 05:00–23:00, Martes 04:00–23:00 Miércoles 05:00–23:00 Jueves 05:00–23:00 Viernes 05:00–23:00 Sábado 06:00–20:00',23.739203793233433, -99.13382268759878,'83412641141');
+
+
+
+INSERT INTO gimnasios (nombre, direccion, descripcion, latitud, longitud,telefono)
+VALUES ('Brothers Gym', 'Av las Americas, México, 87049 Cd Victoria, Tamps.', 'Domingo Cerrado Lunes 06:00–22:00 Martes 06:00–22:00 Miércoles 06:00–22:00 Jueves 06:00–22:00 Viernes 06:00–22:00 Sábado 06:00–14:00',23.767829140002025, -99.15859084970718,'83412234661');
+
+
+
+
+
+
+insertar en la tabla de ubicaciones
+consultas lo que se acaba de insertar para que de el id que se utilizó
+luego hacer udpdate de usuario para ver su ubicación (se actualiza el id de ubicación en tabla usuario) se debe actualizar 
+#A158E6
+
+
+
+
+token:
+pk.eyJ1IjoiZml0c3BvcnQiLCJhIjoiY2xnOXQzNDdmMTl0bDNxbjloOWxqbGFjdSJ9.543yelpxKTWnUMcYvSnBLw

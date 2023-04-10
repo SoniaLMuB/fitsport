@@ -1,0 +1,44 @@
+.titulo{
+    text-align: center; 
+    font-family: Arial; 
+    color: #3B9CD1;
+    font-weight: bold; 
+    font-size: 100px; 
+    text-transform: uppercase;
+}
+.frase{
+    text-align: center; 
+    font-family: Arial; 
+    color: black;
+    font-weight: bold; 
+    font-size: 30px; 
+    text-transform: uppercase;
+}
+.card {
+    width: 68%; /* ajusta el ancho del div según tus necesidades */
+    margin: 0 auto; /* centra el div horizontalmente */
+}
+/* A partir de aqui yo añadí*/
+.card-title{
+    text-align: center; 
+    font-family: Arial;
+    color: #3B9CD1;
+    font-weight: bold; 
+    font-size: 20px; 
+    text-transform: uppercase;
+
+}
+.card-spacing {
+margin-bottom: 20px;
+}
+.modal-content {
+    overflow: auto;
+}
+  
+.modal-body img {
+    max-width: 100%;
+}
+.body{
+    background-color: #F3EAFA;
+}
+/* A partir de aqui yo añadí*/

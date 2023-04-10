@@ -1,0 +1,50 @@
+.titulo{
+    text-align: center; 
+    font-family: Arial; 
+    color: #3B9CD1;
+    font-weight: bold; 
+    font-size: 100px; 
+    text-transform: uppercase;
+}
+
+.card-help{
+    width: 68% !important; /* ajusta el ancho del div según tus necesidades */
+    margin: 0 auto; /* centra el div horizontalmente */
+    margin-left: 120%; /* mueve el div hacia la derecha */
+  }
+/* A partir de aqui yo añadí*/
+.card-title-help{
+    text-align: center; 
+    font-family: Arial;
+    color: #3B9CD1;
+    font-weight: bold; 
+    font-size: 20px; 
+    text-transform: uppercase;
+}
+.card-spacing {
+margin-bottom: 100px;
+}
+.modal-content {
+    overflow: auto;
+}
+
+.modal-body img {
+    max-width: 100%;
+}
+.botonAyuda{
+    background-color: #A158E6;
+}
+
+.btn {
+    background-color: #A158E6;
+}
+  
+.btn:hover {
+    background-color: #b488dd;
+}
+
+.body{
+    background-color: #F3EAFA;
+}
+/* A partir de aqui yo añadí*/
+

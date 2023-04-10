@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+.titulo{
+    text-align: center; 
+    font-family: 'Fira Sans', sans-serif;
+    color: #3B9CD1;
+    font-weight: bold; 
+    font-size: 100px; 
+    text-transform: uppercase;
+}
+.frase{
+    text-align: center; 
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+    font-weight: bold; 
+    font-size: 30px; 
+    text-transform: uppercase;
+}
+.Cdashboard {
+    width: 70%; /* ajusta el ancho del div según tus necesidades */
+    margin: 0 auto; /* centra el div horizontalmente */
+    display: flex; /* convierte la tarjeta en un contenedor flexible */
+    justify-content: center; /* centra el contenido horizontalmente */
+    align-items: center; /* centra el contenido verticalmente */
+    background-color: #fff;
+}
+.rutmet{
+  margin: 0 auto; /* centra el div horizontalmente */
+  display: flex; /* convierte la tarjeta en un contenedor flexible */
+  justify-content: center; /* centra el contenido horizontalmente */
+  margin-left: 100px;
+}
+.gallery{
+  margin: 0 auto; /* centra el div horizontalmente */
+  display: flex; /* convierte la tarjeta en un contenedor flexible */
+  justify-content: center; /* centra el contenido horizontalmente */
+  margin-left: 100px;
+}
+.body{
+    background-color: #F3EAFA;
+}
+.CBdashboard {
+    display: flex; /* convierte el div en un contenedor flexible */
+}
+
+.columna1 {
+    flex: 5; /* especifica que esta columna ocupe 1/2 del ancho disponible */
+}
+
+.columna2 {
+    flex: 1; /* especifica que esta columna ocupe 1/2 del ancho disponible */
+}
+
+.tarjetatitulo{
+    text-align: center !important; 
+    font-family: Arial #2F7D9F !important; 
+    color: #2F7D9F !important;
+    font-weight: bold !important; 
+    font-size: 40px !important; 
+    text-transform: uppercase !important;
+}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .galeria {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .galeria img {
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.1);
+    border: 1px solid #ccc;
+  }
+  .custom-carousel {
+  max-width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+}
+.carousel-item img {
+    max-width: 2500px;
+    height: 600px;
+  }

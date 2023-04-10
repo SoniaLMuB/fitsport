@@ -1,0 +1,46 @@
+.titulo{
+    text-align: center; 
+    font-family: Arial; 
+    color: #3B9CD1;
+    font-weight: bold; 
+    font-size: 100px; 
+    text-transform: uppercase;
+  }
+  .frase{
+    text-align: center; 
+    font-family: Arial; 
+    color: black;
+    font-weight: bold; 
+    font-size: 30px; 
+    text-transform: uppercase;
+  }
+  .Cdashboard {
+    width: 70%; /* ajusta el ancho del div según tus necesidades */
+    margin: 0 auto; /* centra el div horizontalmente */
+    display: flex; /* convierte la tarjeta en un contenedor flexible */
+    justify-content: center; /* centra el contenido horizontalmente */
+    align-items: center; /* centra el contenido verticalmente */
+    background-color: #fff;
+  }
+  .imagen-boton {
+    display: inline-block;
+    position: fixed;
+    right: 100px;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 999;
+  }
+  .metas{
+    text-align: center !important; 
+    font-family: Arial #2F7D9F !important; 
+    color: #2F7D9F !important;
+    font-weight: bold !important; 
+    font-size: 20px !important; 
+    text-transform: uppercase !important;
+  }
+  .imagen-boton img {
+    width: 50px; /* nuevo ancho de imagen */
+    height: 50px; /* nuevo alto de imagen */
+    display: block;
+  }

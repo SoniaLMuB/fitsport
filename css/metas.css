@@ -1,0 +1,136 @@
+/* Estilos del checkbox */
+.body{
+  background-color: #F3EAFA;
+}
+.titulo{
+  text-align: center; 
+  font-family: Arial; 
+  color: #3B9CD1;
+  font-weight: bold; 
+  font-size: 100px; 
+  text-transform: uppercase;
+}
+.frase{
+  text-align: center; 
+  font-family: Arial; 
+  color: black;
+  font-weight: bold; 
+  font-size: 30px; 
+  text-transform: uppercase;
+}
+.Cdashboard {
+  width: 70%; /* ajusta el ancho del div según tus necesidades */
+  margin: 0 auto; /* centra el div horizontalmente */
+  display: flex; /* convierte la tarjeta en un contenedor flexible */
+  justify-content: center; /* centra el contenido horizontalmente */
+  align-items: center; /* centra el contenido verticalmente */
+  background-color: #fff;
+}
+
+.imagen-boton {
+  display: inline-block;
+  position: fixed;
+  right: 100px;
+  bottom: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 999;
+}
+.metas{
+  text-align: center !important; 
+  font-family: Arial #2F7D9F !important; 
+  color: #2F7D9F !important;
+  font-weight: bold !important; 
+  font-size: 20px !important; 
+  text-transform: uppercase !important;
+}
+.imagen-boton img {
+  width: 50px; /* nuevo ancho de imagen */
+  height: 50px; /* nuevo alto de imagen */
+  display: block;
+}
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .check-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .check-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .check-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .check-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg) scale(2);
+  }
+  .CBdashboard {
+    display: flex; /* convierte el div en un contenedor flexible */
+}
+  .columna1 {
+    flex: 1; /* especifica que esta columna ocupe 1/2 del ancho disponible */
+}
+
+.columna2 {
+    flex: 5; /* especifica que esta columna ocupe 1/2 del ancho disponible */
+}
+.imagen-boton {
+  display: inline-block;
+  position: fixed;
+  right: 100px;
+  bottom: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 999;
+}
+.metas{
+  text-align: center !important; 
+  font-family: Arial #2F7D9F !important; 
+  color: #2F7D9F !important;
+  font-weight: bold !important; 
+  font-size: 20px !important; 
+  text-transform: uppercase !important;
+}
+.imagen-boton img {
+  width: 50px; /* nuevo ancho de imagen */
+  height: 50px; /* nuevo alto de imagen */
+  display: block;
+}
