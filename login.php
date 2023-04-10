@@ -76,11 +76,19 @@
     $user=$_POST['usuario'];
     $password=$_POST['contra'];
 
-    $sql="SELECT user,password FROM login WHERE user='$user' and password='$password'";
+    $sql="SELECT id,user,password FROM login WHERE user='$user' and password='$password'";
     $resultado=mysqli_query($con,$sql);
     $filas=mysqli_num_rows($resultado);
+    $fila = $resultado->fetch_assoc();
+    $idUsuario = $fila["id"];
+    $sql2="SELECT fotografia FROM usuarios WHERE id_login='$idUsuario'";
+    $resultado2=mysqli_query($con,$sql2);
+    $fila2 = $resultado2->fetch_assoc();
+    $imagen = $fila2["fotografia"];
     if ($filas>0){
       $_SESSION['nombre_usuario'] = $user; // establecer la variable de sesión con el nombre del usuario
+      $_SESSION['id']=$idUsuario;
+      $_SESSION['fotografia']=$imagen;
       header('Location: dashboard.php');
     }else{ 
       echo '<script>

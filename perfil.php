@@ -80,10 +80,18 @@ if (session_status() == PHP_SESSION_NONE) {
 
                 </p>
                 <div style="display: flex;justify-content: right" class="row">
+
                   <div class="col-md-7">
-                    <div style="display: flex;justify-content: right">
+                    <?php
+                    if($tipo=='F'){
+                      ?>
+                      <div style="display: flex;justify-content: right">
                       <a data-toggle="modal" data-target="#modal1" class="btn2" href="#" style="border-radius: 30px; background-color: #248BC2; border: none; color: #fff; padding: 5px;width: 100%; font-size: 20px;text-align: center; cursor: pointer;text-decoration: none">Cambiar a Premium</a>
                     </div>
+                    <?php
+                    }
+                    ?>
+                    
                   </div>
                   <div class="col-md-5">
                     <a class="btn" href="editarPerfil.php" style="border-radius: 30px; background-color: #A158E6; border: none; color: #fff; padding: 5px;width: 100%; font-size: 20px;text-align: center; cursor: pointer;">Editar</a>

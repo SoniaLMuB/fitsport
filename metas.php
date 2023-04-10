@@ -36,7 +36,7 @@ if (mysqli_num_rows($resultado) > 0) {
   <!-- Titulo de la pagina -->
   <h1 class="titulo">MIS METAS</h1>
   <!-- slogan de la pagina -->
-  <h2 class="frase">La disiplina supera el talento</h2>
+  <h2 class="frase">La disciplina supera el talento</h2>
   <?php
     $datos="SELECT * FROM evento WHERE id_usuarios = $user_id";
     $resultado = mysqli_query($con, $datos);

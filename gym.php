@@ -41,7 +41,7 @@ if (mysqli_num_rows($resultado) > 0) {
   <!-- Titulo de la pagina -->
   <h1 class="titulo">GIMNASIOS ASOCIADOS</h1>
   <!-- slogan de la pagina -->
-  <h2 class="frase">La disiplina supera el talento</h2>
+  <h2 class="frase">La disciplina supera el talento</h2>
   <?php
     // Conexión a la base de datos
     $dsn = 'mysql:host=localhost;dbname=fitsport';

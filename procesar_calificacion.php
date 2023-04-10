@@ -11,7 +11,8 @@ echo $id_gimnasio;
 if($con==false){
     die ("Error, no hay conexion a la base de datos".mysqli_connect_error());
 }
-$sql0="INSERT INTO opiniones(id_gimnasio,calificacion) VALUES (".$id_gimnasio.",".$calificacion.")";
+$sql0 = "INSERT INTO opiniones(id_gimnasio, calificacion) VALUES (" . $id_gimnasio . ", " . $calificacion . ")";
+
 $resultado0=mysqli_query($con,$sql0);
 
 // Redirigir al usuario a la página del gimnasio

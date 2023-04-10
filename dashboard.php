@@ -30,6 +30,22 @@
     // Ahora tienes el ID del usuario que corresponde al nombre de usuario dado
 }
 
+  $sql0="SELECT id FROM usuarios WHERE id_login=".$_SESSION['id'];
+  $resultado0=mysqli_query($con,$sql0);
+  $fila0 = $resultado0->fetch_assoc();
+  $sql1="SELECT id FROM evento WHERE id_evento=2";
+  $resultado1=mysqli_query($con,$sql1);
+  $filas1=mysqli_num_rows($resultado1);
+  if ($filas1 > 0) {
+      // Iterar sobre los resultados y imprimir cada ID
+      while ($fila = $resultado1->fetch_assoc()) {
+      
+       
+      }
+  } else {
+      echo "No se encontraron resultados.";
+  }
+
 ?>
 
 
