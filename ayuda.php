@@ -19,6 +19,7 @@
 </head>
 <body class="body">
     <?php
+    include('header.php');
         include('aside.php');
     ?>
     <h1 class="titulo">AYUDA</h1>
@@ -137,7 +138,9 @@
             </div>
         </div>
     </div>
-
+    <?php
+    include('foot.php');
+    ?>
 
 <!--Abril Archivo JS-->
 <script src="js/ayuda.js"></script>

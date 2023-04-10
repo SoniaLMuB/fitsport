@@ -8,7 +8,7 @@
           <i class="fa-solid fa-user" style="color: #A158E6;"></i>
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <a href="#" class="dropdown-item">
+          <a href="perfil.php" class="dropdown-item">
             Ver Perfil
           </a>
           <div class="dropdown-divider"></div>

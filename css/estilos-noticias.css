@@ -1,0 +1,38 @@
+.titulo{
+    text-align: center; 
+    font-family: Arial; 
+    color: #3B9CD1;
+    font-weight: bold; 
+    font-size: 100px; 
+    text-transform: uppercase;
+}
+body{
+    background-color: #F3EAFA;
+}
+.card-body{
+	width: 100%;
+	padding: 3%;
+}
+.imag{
+	border-radius: 5px !important;
+}
+.titulo-not{
+	text-align: left; 
+    font-family: Arial; 
+    color: #1F4A61;
+    font-weight: bold; 
+    font-size: 45px; 
+}
+.text{
+	text-align: left; 
+	color: #2A2D2E;
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	color: #A872ED;
+	font-weight: bold;
+}
+a:hover {
+	color: #6820C4;
+}
